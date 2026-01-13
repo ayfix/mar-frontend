@@ -1,7 +1,7 @@
 import axios from "axios";
 import type { LoginResponse } from "../types";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://mar-backend-production-adf8.up.railway.app/api";
 
 // 🔹 Axios instance
 export const api = axios.create({

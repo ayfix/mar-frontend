@@ -18,7 +18,7 @@ import {
 } from 'lucide-react';
 
 // --- CONFIG ---
-const API_URL = 'http://localhost:5000/api/admin'; 
+const API_URL = 'https://mar-backend-production-adf8.up.railway.app/api/admin'; 
 
 // --- TYPES ---
 interface DispatchItem {

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/client",
+  baseURL: "https://mar-backend-production-adf8.up.railway.app/api/client",
 });
 
 // Attach token automatically

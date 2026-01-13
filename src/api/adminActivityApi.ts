@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Adjust this if your port is different
-const API_URL = 'http://localhost:5000/api/admin'; 
+const API_URL = 'https://mar-backend-production-adf8.up.railway.app/api/admin'; 
 
 const getAuthHeader = () => {
   const token = localStorage.getItem('token');

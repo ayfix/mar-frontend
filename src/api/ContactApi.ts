@@ -1,6 +1,6 @@
 // src/api/contactApi.ts
 
-const API_BASE_URL = "http://localhost:5000/api/user/contact";
+const API_BASE_URL = "https://mar-backend-production-adf8.up.railway.app/api/user/contact";
 
 export interface ContactPayload {
   name: string;
