@@ -172,7 +172,7 @@ export default function TrackShipment() {
       <div className="max-w-5xl mx-auto space-y-10">
         
         {/* HEADER SECTION */}
-        <div className="text-center sm:text-left space-y-2">
+        <div className="mt-[3rem] text-center sm:text-left space-y-2">
           <motion.div 
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}

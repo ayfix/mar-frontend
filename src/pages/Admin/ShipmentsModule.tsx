@@ -62,7 +62,7 @@ const ShipmentsModule: React.FC = () => {
   ];
 
   // --- API CONFIG ---
-  const API_URL = 'https://mar-backend-production-adf8.up.railway.app/api/admin';
+  const API_URL = 'http://localhost:5000/api/admin';
   const getAuthHeader = () => {
     const token = localStorage.getItem('token');
     return { headers: { Authorization: `Bearer ${token}` } };

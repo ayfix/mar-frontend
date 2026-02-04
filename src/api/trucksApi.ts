@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://mar-backend-production-adf8.up.railway.app/api/admin';
+const API_URL = 'http://localhost:5000/api/admin';
 
 // Helper to get the token
 const getAuthHeader = () => {
